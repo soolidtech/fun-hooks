@@ -1,5 +1,5 @@
 {
-  "name": "fun-hooks",
+  "name": "@soolidtech/fun-hooks",
   "version": "1.0.3",
   "description": "A generalized and simple hooking API for adding extensibility to applications",
   "author": "Rich Snapp @snapwich",
@@ -42,7 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/snapwich/fun-hooks"
+    "url": "https://github.com/soolidtech/fun-hooks"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "typescript-tuple": "^2.2.1"
